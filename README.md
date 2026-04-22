@@ -19,7 +19,7 @@ This demo shows a full lifecycle of a distributed system:
 4. A consumer reads messages from a partition
 5. One broker (the leader) is manually terminated
 6. A new leader is elected automatically
-7. Producing/consing from the dead broker fails
+7. Producing/consuming from the dead broker fails
 8. Producing/consuming from another broker still works
 9. The killed broker is restarted and rejoins the cluster
 
@@ -139,6 +139,8 @@ java -cp target/simple-kafka-1.0-SNAPSHOT.jar com.simplekafka.client.SimpleKafka
 
 ### Restart the broker
 
+This is assuming you killed broker 1. If you killed 2 or 3 then use those commands (from step 3) to restart them.
+
 ```bash
 java -cp target/simple-kafka-1.0-SNAPSHOT.jar com.simplekafka.broker.SimpleKafkaBroker 1 localhost 9091 2181
 ```
@@ -179,4 +181,4 @@ Structure includes:
 
 ---
 
-This project was made with the help of [text](https://github.com/buildthingsuseful/build-your-own-kafka)
+This project was made with the help of https://github.com/buildthingsuseful/build-your-own-kafka
