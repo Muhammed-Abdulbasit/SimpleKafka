@@ -1,2 +1,8 @@
 /Users/muhammedabdulbasit/Documents/GitHub/SimpleKafka/src/main/java/com/simplekafka/broker/BrokerInfo.java
+/Users/muhammedabdulbasit/Documents/GitHub/SimpleKafka/src/main/java/com/simplekafka/broker/Partition.java
+/Users/muhammedabdulbasit/Documents/GitHub/SimpleKafka/src/main/java/com/simplekafka/broker/Protocol.java
 /Users/muhammedabdulbasit/Documents/GitHub/SimpleKafka/src/main/java/com/simplekafka/broker/SimpleKafkaBroker.java
+/Users/muhammedabdulbasit/Documents/GitHub/SimpleKafka/src/main/java/com/simplekafka/broker/ZookeeperClient.java
+/Users/muhammedabdulbasit/Documents/GitHub/SimpleKafka/src/main/java/com/simplekafka/client/SimpleKafkaClient.java
+/Users/muhammedabdulbasit/Documents/GitHub/SimpleKafka/src/main/java/com/simplekafka/client/SimpleKafkaConsumer.java
+/Users/muhammedabdulbasit/Documents/GitHub/SimpleKafka/src/main/java/com/simplekafka/client/SimpleKafkaProducer.java
